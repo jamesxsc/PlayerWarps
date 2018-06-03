@@ -1,0 +1,23 @@
+createWarpCost: 1000000
+defaultMaxPlayerWarps: 5
+
+incorrectArgsMsg: '&7You have provided incorrect arguments.'
+
+createWarpSuccessMsg: '&7You have successfully created the warp.'
+createWarpFailPermMsg: '&7You do not have permission to create a warp.'
+createWarpFailMaxMsg: '&7You have already created the maximum number of warps.'
+createWarpFailBankruptMsg: '&7You do not have the required currency to create the warp.'
+createWarpFailExistMsg: '&7That warp already exists.'
+
+deleteWarpSuccessMsg: '&7You have successfully deleted the warp.'
+deleteWarpFailPermMsg: '&7You do not have permission to delete that warp.'
+deleteWarpFailOwnMsg: '&7You can only delete your own warps.'
+deleteWarpFailExistMsg: '&7That warp does not exist.'
+
+tpWarpSuccessMsg: '&7You have been sent to the warp.'
+tpWarpFailExistMsg: '&7That warp does not exist.'
+tpWarpFailPermMsg: '&7You do not have permission to go to this warp.'
+
+listWarpsHeader: '&7All warps are listed below'
+listWarpsFailPermMsg: '&7You do not have permission to list warps.'
+listWarpsFailEmptyMsg: '&7No warps currently exist.'

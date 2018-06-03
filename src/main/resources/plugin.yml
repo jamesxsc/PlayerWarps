@@ -1,0 +1,39 @@
+name: PlayerWarps
+author: 615283
+version: 1.0
+description: A plugin that allows players to create their own warps for a fee
+main: com.georlegacy.general.playerwarps.PlayerWarps
+depend: [Vault]
+commands:
+  setpwarp:
+    usage: /<command> <warpname>
+    description: Sets a player warp for the cost set in the configuration file
+  pwarp:
+    usage: /<command> <warpname>
+    description: Warps to a set warp
+  delpwarp:
+    usage: /<command> <warpname>
+    description: Deletes a warp
+  helppwarp:
+    usage: /<command>
+    description: Gives plugin help
+  pwarps:
+    usage: /<command>
+    description: Lists warps
+
+  permissions:
+    playerwarps.create:
+      default: true
+      description: Allows usage of /setpwarp
+    playerwarps.use:
+      default: true
+      description: Allows usage of /pwarp
+    playerwarps.delete:
+      default: true
+      description: Allows usage of /delpwarp on own warps
+    playerwarps.delete.others:
+      default: op
+      description: Allows usage of /delpwarp on others' warps
+    playerwarps.list:
+      default: true
+      description: Allows usage of /pwarps
